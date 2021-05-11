@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>assignment 5B</title>
+    <style>
+        .color {
+            background-color: mistyrose;
+        }
+
+        .font {
+            color: black;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+             margin-left: 10%;
+        }
+
+        .paragraph {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 100%;
+            margin-left: 10%;
+        }
+
+        .click {
+           background-color: #8E9B90;
+           color: white;
+        }
+
+        .textbox {
+            background-color: seashell;
+            margin-left: 10%
+        }
+
+        .column {
+            float: right;
+            clear: right;
+            width: 50%;
+            padding: 10px;
+            margin-top: 12px;
+        }
+
+        .size {
+          width: 20%
+          height: 20%
+          float: right;
+          margin: 70px;
+        }
+
+     
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="color">
+     <h1 class="font">Calculate the circumference and area of a circle</h1>
+     
+     <p class="paragraph">Enter the radius of your circle in the textbox below:</p>
+     <div>
+     <input class="textbox" type="text" id="entradius">
+     <button class="click" id="buttonarea">Area</button>
+     <button class="click" id="buttoncircumference">Circumference</button> 
+     
+    </div> 
+    <div id="displayText" style="font-weight:bold;>
+     <p class="paragraph" ">A = πr^2</p>
+     </div>
+     <div id="displayans" style="font-weight:bold;>
+     <p class="paragraph" >C = 2πr</p>
+     </div>
+     <img class="size" style="" src="images/circumference (1).png" alt="Circumference" height="200" width= "200">
+     
+
+     <script src="/script.js"></script>
+  
+
+</body>
+</html>
